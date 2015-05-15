@@ -1,0 +1,12 @@
+/** --- Iterate samples --- **/
+
+var samples = workspace.samples;
+var size = samples.length;
+
+for (var i=0; i<size; i++)
+{
+	var sample = workspace.samples[i];
+	var fields = [];	
+	console.log(sample.name);
+
+	}
